@@ -9,7 +9,7 @@ export function startServiceWorker() {
 }
 export const gamesUrl = process.env.NODE_ENV === "production" ? "https://www.wheelofpersia.com/" : "https://www.wheelofpersia.com/";
 export const casinogamesUrl = process.env.NODE_ENV === "production" ? "https://www.wheelofpersia.com/" : "https://www.wheelofpersia.com/";
-export const pokerUrl = process.env.NODE_ENV === "production" ? "https://trpkr.com:2053" : "https://trpkr.com:2053";
+export const pokerUrl = process.env.NODE_ENV === "production" ? "https://poker.galaxy24.org" : "https://poker.galaxy24.org";
 function getAPI() {
     //let host = document.location.host;
     var host = {
